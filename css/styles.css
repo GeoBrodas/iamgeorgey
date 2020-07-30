@@ -30,6 +30,7 @@ h1 {
   font-family: 'Montez', cursive;
   font-size: 5.625rem;
   font-weight: normal;
+  line-height: 2;
 }
 
 .top-container p {
@@ -38,21 +39,25 @@ h1 {
 
 h2{
   font-family: 'Montez', cursive;
-  font-size: 30px;
+  font-size: 50px;
   margin-top: 0;
-  padding-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 30px;
   color: #206a5d;
 }
 
 h3 {
   margin-top: 0;
   color: #59405c;
+
 }
 
 p {
+  color: #3b2e5a;
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 20px;
+  line-height: 2;
 }
 
 .btn {
@@ -87,21 +92,84 @@ p {
   display: inline-block;
 }
 
-.skills {
-  background-color: #3282b8;
-  height: 550px;
+
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  background-color: #93b5e1;
 }
 
-.contact-me {
-  background-color: #ade498;
-  height: 220px;
+.skill-row-2 {
+  width: 50%;
+  margin: 100px auto 0;
+  padding-bottom: 100px;
+  text-align: left;
+  background-color: #93b5e1;
 }
+
+
+
+.skills {
+  background-color: #93b5e1;
+}
+
+.coding {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.design {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me-main {
+  background-color:#fff48f ;
+  text-decoration: none;
+  height: 250px;
+}
+
+.contact-me-main a {
+  text-decoration: none;
+  color: #ff5f40;
+}
+
+.btn {
+  background: #34d9aa;
+  background-image: -webkit-linear-gradient(top, #34d9aa, #2b97b8);
+  background-image: -moz-linear-gradient(top, #34d9aa, #2b97b8);
+  background-image: -ms-linear-gradient(top, #34d9aa, #2b97b8);
+  background-image: -o-linear-gradient(top, #34d9aa, #2b97b8);
+  background-image: linear-gradient(to bottom, #34d9aa, #2b97b8);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3ce6fc;
+  background-image: -webkit-linear-gradient(top, #3ce6fc, #34c0d9);
+  background-image: -moz-linear-gradient(top, #3ce6fc, #34c0d9);
+  background-image: -ms-linear-gradient(top, #3ce6fc, #34c0d9);
+  background-image: -o-linear-gradient(top, #3ce6fc, #34c0d9);
+  background-image: linear-gradient(to bottom, #3ce6fc, #34c0d9);
+  text-decoration: none;
+}
+
 
 .bottom-container {
   position: relative;
   height:80px;
 }
-
 
 .footer-link {
   display: inline-block;
