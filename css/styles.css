@@ -177,7 +177,7 @@ p {
 }
 
 /* Media query breakpoints */
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:800px) {
   .monuments {
     width: 88%;
     top: 45px;
